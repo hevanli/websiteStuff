@@ -1,0 +1,33 @@
+.container {
+    background: pink;
+    height: 25vh;
+    width: 80vw;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+}
+
+.item {
+    background: lightblue;
+    margin: 0.5em;
+}
+
+.one {
+    flex: 2 250px;
+    order: 3;
+}
+
+.two {
+    flex: 1 2 250px;
+    align-self: center;
+
+    order: 2;
+}
+
+.three {
+    flex: 1 2 250px;
+    order: 1;
+}
