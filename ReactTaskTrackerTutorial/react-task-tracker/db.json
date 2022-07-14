@@ -11,6 +11,12 @@
       "day": "yea ya know when",
       "reminder": true,
       "id": 7
+    },
+    {
+      "text": "finished the tutorial",
+      "day": "now",
+      "reminder": false,
+      "id": 8
     }
   ]
 }
